@@ -4,7 +4,7 @@ from pygame.locals import *
 pygame.init()
 
 clock = pygame.time.Clock()
-fps = 60
+fps = 100
 
 screen_width = 464
 screen_height = 626
@@ -14,7 +14,7 @@ pygame.display.set_caption('Flappy Bird')
 
 #define game variables
 bg_scroll = 0
-scroll_speed = 4
+scroll_speed = 1
 
 #load images
 bg = pygame.image.load('img/Flappy_Bird_bg.png')
